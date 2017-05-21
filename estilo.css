@@ -1,0 +1,163 @@
+
+body{
+  font-family: arial, sans-serif;
+  background-color: #111;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header{
+  background-image: url("img/banner.jpg");
+  background-repeat: round;
+  margin: 0 auto;
+  height: 200px;
+  width: 95%;
+  background-color: white;
+  border-radius: 4px;
+
+}
+
+nav{
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: black;
+  height: 29px;
+  width: 95%;
+  text-align: center;
+}
+
+
+a{
+  font-size: 13px;
+  float: left;
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 8px 11px;
+}
+
+a:hover{
+  color: black;
+  background-color: white;
+}
+
+.active{
+  color: white;
+  background-color: #2f2f2f;
+}
+
+section{
+  margin: 0 auto;
+  background-color: black;
+  height: 500px;
+  width: 95%;
+  overflow: hidden;
+}
+
+.content{
+
+background-repeat:no-repeat;
+background-position:20% 20%;
+height: 550px;
+width: 700px;
+background-color: black;
+float: right;
+}
+
+.lat{
+
+
+margin-right: 500px;
+background-size: contain;
+height: 600px;
+width: 350px;
+background-color: orange;
+
+}
+
+.texto{
+  margin-top: 150px;
+  margin-right: 100px;
+  width: 500px;
+  height: 200px;
+  background-color: black;
+  float: right;
+  text-align: justify;
+
+}
+
+footer{
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  width: 95%;
+  height: 30px;
+  background-color: black;
+
+}
+
+
+.contenedor{
+text-align: center;
+color: black;
+border-radius: 8px;
+margin: 200px auto;
+background-color: skyblue;
+height: auto;
+width: 500px;
+
+}
+
+.marco{
+  color: white;
+text-align: left;
+border-radius: 8px 8px 0 0;
+background-position:center;
+background-size: cover;
+background-image:url("ventas2.jpg");
+
+width: 500px;
+height: 100px;
+
+
+}
+
+.login{
+  color: white;
+text-align: left;
+	border-radius: 0 0 8px 8px;
+	background-color: black;
+	margin: 0 auto;
+	width: 500px;
+	height: 150px;
+
+}
+
+
+table{
+
+
+	margin: auto 120px;
+	padding: 20px;
+
+
+}
+
+
+
+.contenidoTabla{
+
+border-radius: 5px;
+background-color: grey;
+width: 800px;
+height: 300px;
+margin: 0 auto;
+
+}
+
+h1{
+
+  color: orange;
+  text-align: center;
+
+}
