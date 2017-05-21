@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>pagina registro</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="contenedor">
+		Bienvenidos a Multilibros
+		<div class="marco">
+		</div>
+			<div class="login">
+				<form action="inicioPrincipal.html" method="post"  target="inicio.html">
+	<table>
+		<tr>
+			<th>
+			usuario:
+		</th>
+			<td>
+				 <input type="text" name="nombres" required size="15" maxlength="15">
+			</td>
+		</tr>
+		<tr>
+			<th>
+				contraseña:
+			</th>
+			<td><input type="password" name="password" required size="8" maxlength="8"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="submit" name="enviar" value="enviar"></td>
+		</tr>
+	</table>
+		</form>
+		</div>
+	</div>
+</body>
+</html>
